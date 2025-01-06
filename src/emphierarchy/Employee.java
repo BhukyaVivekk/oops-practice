@@ -13,7 +13,7 @@ public class Employee {
     }
 
     public void printDetails(){
-        System.out.println("Employee Details : ");
+        System.out.println("Employee Profile : "+this.getClass().getSimpleName());
         System.out.printf("""
                 ID : %d
                 Name : %s
